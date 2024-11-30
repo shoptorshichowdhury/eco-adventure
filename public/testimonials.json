@@ -1,0 +1,20 @@
+[
+  {
+    "photo": "https://i.ibb.co.com/HrXpwMq/review2.jpg",
+    "name": "Jane Doe",
+    "location": "California, USA",
+    "testimonial": "Exploring eco-adventures through this blog has been life-changing! The recommendations are thoughtful and sustainable."
+  },
+  {
+    "photo": "https://i.ibb.co.com/b6b0wTm/review1.jpg",
+    "name": "John Smith",
+    "location": "Sydney, Australia",
+    "testimonial": "I have discovered the beauty of eco-tourism thanks to this blog. The insights are truly valuable for conscious travelers."
+  },
+  {
+    "photo": "https://i.ibb.co.com/YddFzfy/review3.jpg",
+    "name": "Alice Brown",
+    "location": "London, UK",
+    "testimonial": "This blog inspired me to travel more sustainably. Highly recommend for eco-conscious adventurers!"
+  }
+]

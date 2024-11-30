@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "adventureTitle": "Summit Serenity Trek",
+    "image": "https://i.ibb.co.com/sgKtBtn/id1.jpg",
+    "categoryName": "Mountain Trek",
+    "shortDescription": "A breathtaking trek to the pristine summit of Mount Serenity, surrounded by untouched wilderness.",
+    "adventureCost": 250,
+    "bookingAvailability": "Available",
+    "location": "Mount Serenity National Park",
+    "duration": "3 days, 2 nights",
+    "adventureLevel": "Moderate",
+    "includedItems": [
+      "Certified guide",
+      "Camping equipment",
+      "Meals and snacks",
+      "First-aid kit"
+    ],
+    "ecoFriendlyFeatures": [
+      "Leave No Trace principles",
+      "Eco-certified guides",
+      "Reusable utensils"
+    ],
+    "maxGroupSize": 10,
+    "specialInstructions": [
+      "Wear sturdy hiking boots",
+      "Pack layers for varying weather",
+      "Bring your own water bottle"
+    ]
+  },
+  {
+    "id": 2,
+    "adventureTitle": "Ocean Odyssey Dive",
+    "image": "https://i.ibb.co.com/RCBJbrJ/id2.jpg",
+    "categoryName": "Ocean Dive",
+    "shortDescription": "Discover the vibrant underwater world of the Pacific's coral reefs.",
+    "adventureCost": 400,
+    "bookingAvailability": "Limited",
+    "location": "Great Barrier Reef, Australia",
+    "duration": "2 days",
+    "adventureLevel": "Advanced",
+    "includedItems": [
+      "Scuba gear rental",
+      "Dive instructor",
+      "Underwater photography package",
+      "Snacks and drinks"
+    ],
+    "ecoFriendlyFeatures": [
+      "Reef-safe sunscreen provided",
+      "Plastic-free snacks",
+      "Marine life conservation education"
+    ],
+    "maxGroupSize": 8,
+    "specialInstructions": [
+      "Must be scuba certified",
+      "Avoid touching coral",
+      "Carry a waterproof ID"
+    ]
+  },
+  {
+    "id": 3,
+    "adventureTitle": "Rainforest Canopy Expedition",
+    "image": "https://i.ibb.co.com/J36469F/id3.jpg",
+    "categoryName": "Jungle Adventure",
+    "shortDescription": "Explore the rainforest canopy through suspension bridges and ziplines.",
+    "adventureCost": 180,
+    "bookingAvailability": "Available",
+    "location": "Amazon Rainforest, Brazil",
+    "duration": "1 day",
+    "adventureLevel": "Easy",
+    "includedItems": [
+      "Safety harness",
+      "Local guide",
+      "Lunch",
+      "Transport from base camp"
+    ],
+    "ecoFriendlyFeatures": [
+      "Local guide employment",
+      "Solar-powered equipment",
+      "Eco-friendly transport"
+    ],
+    "maxGroupSize": 12,
+    "specialInstructions": [
+      "Wear closed-toe shoes",
+      "Apply insect repellent",
+      "Avoid loud noises to not disturb wildlife"
+    ]
+  },
+  {
+    "id": 4,
+    "adventureTitle": "Mystic Canyon Trek",
+    "image": "https://i.ibb.co.com/72N53ZS/id4.jpg",
+    "categoryName": "Canyon Adventure",
+    "shortDescription": "Embark on a thrilling trek through winding canyons and hidden waterfalls.",
+    "adventureCost": 220,
+    "bookingAvailability": "Available",
+    "location": "Antelope Canyon, USA",
+    "duration": "1 day",
+    "adventureLevel": "Moderate",
+    "includedItems": [
+      "Expert canyon guide",
+      "Lunch and refreshments",
+      "Safety gear",
+      "Group photography session"
+    ],
+    "ecoFriendlyFeatures": [
+      "Eco-certified guides",
+      "Trail conservation contributions",
+      "Reusable water bottles provided"
+    ],
+    "maxGroupSize": 10,
+    "specialInstructions": [
+      "Wear water-resistant hiking shoes",
+      "Carry a small waterproof bag",
+      "Respect the natural environment"
+    ]
+  },
+  {
+    "id": 5,
+    "adventureTitle": "Desert Oasis Safari",
+    "image": "https://i.ibb.co.com/MCb2zZm/id5.jpg",
+    "categoryName": "Desert Adventure",
+    "shortDescription": "A camel ride to a tranquil desert oasis, perfect for star gazing and camping.",
+    "adventureCost": 200,
+    "bookingAvailability": "Available",
+    "location": "Sahara Desert, Morocco",
+    "duration": "2 days, 1 night",
+    "adventureLevel": "Moderate",
+    "includedItems": [
+      "Camel ride",
+      "Desert guide",
+      "Traditional meals",
+      "Overnight camp"
+    ],
+    "ecoFriendlyFeatures": [
+      "Solar-powered lighting",
+      "Eco-friendly tents",
+      "Waste reduction practices"
+    ],
+    "maxGroupSize": 10,
+    "specialInstructions": [
+      "Bring sunscreen and a hat",
+      "Stay hydrated",
+      "Pack light for easy travel"
+    ]
+  },
+  {
+    "id": 6,
+    "adventureTitle": "Kayaking Through Mangroves",
+    "image": "https://i.ibb.co.com/fr00561/id6.jpg",
+    "categoryName": "Water Adventure",
+    "shortDescription": "Paddle through serene mangrove forests, observing unique wildlife.",
+    "adventureCost": 150,
+    "bookingAvailability": "Available",
+    "location": "Sundarbans, India",
+    "duration": "Half-day",
+    "adventureLevel": "Easy",
+    "includedItems": [
+      "Kayak rental",
+      "Life jacket",
+      "Snack pack",
+      "Local guide"
+    ],
+    "ecoFriendlyFeatures": [
+      "Biodegradable snack packaging",
+      "Wildlife conservation support",
+      "Human-powered adventure"
+    ],
+    "maxGroupSize": 6,
+    "specialInstructions": [
+      "Bring a dry bag for valuables",
+      "Avoid loud noises",
+      "Respect wildlife habitats"
+    ]
+  },
+  {
+    "id": 7,
+    "adventureTitle": "Volcanic Crater Exploration",
+    "image": "https://i.ibb.co.com/p217pxp/id7.jpg",
+    "categoryName": "Mountain Adventure",
+    "shortDescription": "Hike to the edge of a volcanic crater with stunning panoramic views.",
+    "adventureCost": 120,
+    "bookingAvailability": "Available",
+    "location": "Mount Bromo, Indonesia",
+    "duration": "1 day",
+    "adventureLevel": "Moderate",
+    "includedItems": [
+      "Guide services",
+      "Safety equipment",
+      "Breakfast",
+      "Transportation from base camp"
+    ],
+    "ecoFriendlyFeatures": [
+      "Locally sourced meals",
+      "Plastic-free adventure",
+      "Trail restoration funding"
+    ],
+    "maxGroupSize": 8,
+    "specialInstructions": [
+      "Wear comfortable hiking shoes",
+      "Carry a flashlight for early start",
+      "Pack light but include essentials"
+    ]
+  },
+  {
+    "id": 8,
+    "adventureTitle": "Wildlife Safari on Foot",
+    "image": "https://i.ibb.co.com/M14f4bc/id8.jpg",
+    "categoryName": "Jungle Adventure",
+    "shortDescription": "Track wildlife on foot in a protected reserve with expert guides.",
+    "adventureCost": 300,
+    "bookingAvailability": "Limited",
+    "location": "Kruger National Park, South Africa",
+    "duration": "2 days, 1 night",
+    "adventureLevel": "Challenging",
+    "includedItems": [
+      "Professional tracker",
+      "Meals and drinks",
+      "Overnight accommodation",
+      "Binoculars rental"
+    ],
+    "ecoFriendlyFeatures": [
+      "Eco-certified accommodations",
+      "Local community involvement",
+      "Low-impact activity"
+    ],
+    "maxGroupSize": 6,
+    "specialInstructions": [
+      "Wear neutral-colored clothing",
+      "Carry a small backpack",
+      "Avoid strong scents"
+    ]
+  },
+  {
+    "id": 9,
+    "adventureTitle": "Northern Lights Snowshoe Trek",
+    "image": "https://i.ibb.co.com/r437sw9/id9.jpg",
+    "categoryName": "Snow Adventure",
+    "shortDescription": "Witness the Aurora Borealis on a guided snowshoe trek in arctic landscapes.",
+    "adventureCost": 300,
+    "bookingAvailability": "Available",
+    "location": "Tromsø, Norway",
+    "duration": "Half-night",
+    "adventureLevel": "Easy",
+    "includedItems": [
+      "Snowshoes rental",
+      "Hot drinks",
+      "Professional guide",
+      "Aurora photography tips"
+    ],
+    "ecoFriendlyFeatures": [
+      "Minimal disturbance to wildlife",
+      "Renewable-powered base camp",
+      "Small group sizes"
+    ],
+    "maxGroupSize": 8,
+    "specialInstructions": [
+      "Dress in layers for extreme cold",
+      "Bring a camera with manual settings",
+      "Avoid bright flashlights"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Pack Light & Smart",
+    "description": "Minimize your carbon footprint by packing only essentials. Choose lightweight items."
+  },
+  {
+    "id": 2,
+    "title": "Eco-Friendly Transit",
+    "description": "Choose trains, buses, or electric vehicles over flying whenever possible to reduce emissions."
+  },
+  {
+    "id": 3,
+    "title": "Stay in Green Hotels",
+    "description": "Opt for eco-friendly accommodations with certifications like solar-powered energy systems."
+  },
+  {
+    "id": 4,
+    "title": "Bring Reusable Gear",
+    "description": "Pack reusable water bottles, utensils, and bags to reduce waste and avoid single-use plastics."
+  }
+]
