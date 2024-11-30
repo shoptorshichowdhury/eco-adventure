@@ -3,6 +3,7 @@ import AdventureExperience from "../components/AdventureExperience/AdventureExpe
 import Banner from "../components/Banner/Banner";
 import Heading from "../components/Heading/Heading";
 import TravelTips from "../components/TravelTips/TravelTips";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 const Home = () => {
   const data = useLoaderData();
@@ -19,6 +20,11 @@ const Home = () => {
         subtitle={`Quick tips to make your travel more sustainable`}
       ></Heading>
       <TravelTips></TravelTips>
+      <Heading
+        title={`Adventurers Stories`}
+        subtitle={`Inspiring stories and heartfelt feedback from those who share our passion for sustainable travel`}
+      ></Heading>
+      <Testimonial></Testimonial>
     </div>
   );
 };
