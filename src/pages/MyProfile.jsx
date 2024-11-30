@@ -14,7 +14,7 @@ const MyProfile = () => {
       <div className="mt-10">
         <h4 className="text-xl font-semibold">Profile Information:</h4>
         <div className="flex flex-col items-start my-5">
-          <figure className="w-96 h-80 my-3">
+          <figure className="w-60 h-56 md:w-96 md:h-80 my-3">
             <img
               src={user?.photoURL}
               alt={user?.displayName}

@@ -25,7 +25,7 @@ const AuthLayout = () => {
   return (
     <div className="min-h-screen">
       <Navbar></Navbar>
-      <section className="font-openSans bg-[#F9F9F9] py-12 flex justify-center items-center">
+      <section className="font-openSans bg-[#F9F9F9] py-12 flex justify-center items-center w-11/12 mx-auto">
         <Outlet></Outlet>
       </section>
       <Footer></Footer>

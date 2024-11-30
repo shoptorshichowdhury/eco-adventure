@@ -22,7 +22,7 @@ const Banner = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper flex justify-center items-center w-full h-[200px] md:h-[300px] lg:h-[580px] xl:h-[600px] overflow-hidden"
+      className="mySwiper flex justify-center items-center w-full h-[200px] md:h-[350px] lg:h-[580px] xl:h-[600px] overflow-hidden"
     >
       <SwiperSlide>
         <img src={banner1} className="w-full h-full object-cover" />
