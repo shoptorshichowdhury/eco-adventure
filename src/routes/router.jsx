@@ -3,6 +3,11 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 import AdventureDetails from "../pages/AdventureDetails";
+import AuthLayout from "../layouts/AuthLayout";
+import Register from "../components/Register/Register";
+import Login from "../components/Login/Login";
+import PrivateRoute from "./PrivateRoot";
+import ResetPassword from "../components/ResetPassword/ResetPassword";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +21,30 @@ const router = createBrowserRouter([
       },
       {
         path: "adventureDetails/:id",
-        element: <AdventureDetails></AdventureDetails>,
+        element: (
+          <PrivateRoute>
+            <AdventureDetails></AdventureDetails>
+          </PrivateRoute>
+        ),
         loader: () => fetch("/adventure.json"),
+      },
+    ],
+  },
+  {
+    path: "/auth",
+    element: <AuthLayout></AuthLayout>,
+    children: [
+      {
+        path: "/auth/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/auth/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/auth/resetPassword",
+        element: <ResetPassword></ResetPassword>,
       },
     ],
   },

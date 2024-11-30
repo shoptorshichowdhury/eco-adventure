@@ -1,7 +1,15 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { useContext } from "react";
+import { AuthContext } from "../../provider/AuthProvider";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut();
+  };
+
   const links = (
     <>
       <li>
@@ -72,12 +80,36 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-3">
-          <Link
-            to="/auth/login"
-            className="btn btn-sm md:btn-md bg-[#064E3B] border border-transparent text-[#F9F9F9] rounded-2xl md:rounded-[28px] px-4 md:px-8 md:text-base hover:border-[#064E3B] hover:bg-[#F9F9F9] hover:text-[#064E3B] transition-all duration-300"
-          >
-            Login
-          </Link>
+          {user && user?.email ? (
+            <div
+              className="tooltip tooltip-bottom"
+              data-tip={user?.displayName}
+            >
+              <div className="w-10 h-10 md:w-12 md:h-12 border-4 border-[#064E3B] rounded-full overflow-hidden">
+                <img
+                  src={user.photoURL}
+                  className="rounded-full w-full h-full object-cover overflow-hidden"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          {user && user?.email ? (
+            <Link
+              onClick={handleLogOut}
+              className="btn btn-sm md:btn-md bg-[#064E3B] border border-transparent text-[#F9F9F9] rounded-2xl md:rounded-[28px] px-4 md:px-8 md:text-base hover:border-[#064E3B] hover:bg-[#F9F9F9] hover:text-[#064E3B] transition-all duration-300"
+            >
+              Log out
+            </Link>
+          ) : (
+            <Link
+              to="/auth/login"
+              className="btn btn-sm md:btn-md bg-[#064E3B] border border-transparent text-[#F9F9F9] rounded-2xl md:rounded-[28px] px-4 md:px-8 md:text-base hover:border-[#064E3B] hover:bg-[#F9F9F9] hover:text-[#064E3B] transition-all duration-300"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </nav>
