@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 
@@ -6,6 +6,21 @@ const ResetPassword = () => {
   const { resetUserPassword } = useContext(AuthContext);
   const location = useLocation();
   const [email, setEmail] = useState(location.state?.email || "");
+
+  const [pageTitle, setPageTitle] = useState("Home");
+  let currentLocation = useLocation();
+
+  const titleMap = {
+    "/auth/resetPassword": "Reset Password",
+  };
+
+  useEffect(() => {
+    const currentTitle = titleMap[currentLocation.pathname];
+    if (currentTitle) {
+      setPageTitle(currentTitle);
+      document.title = currentTitle;
+    }
+  }, [currentLocation]);
 
   const handleResetPassword = (e) => {
     e.preventDefault();

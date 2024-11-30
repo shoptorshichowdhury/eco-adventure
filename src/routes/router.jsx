@@ -8,6 +8,8 @@ import Register from "../components/Register/Register";
 import Login from "../components/Login/Login";
 import PrivateRoute from "./PrivateRoot";
 import ResetPassword from "../components/ResetPassword/ResetPassword";
+import MyProfile from "../pages/MyProfile";
+import UpdateProfile from "../pages/UpdateProfile";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,22 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: () => fetch("/adventure.json"),
+      },
+      {
+        path: "/myProfile",
+        element: (
+          <PrivateRoute>
+            <MyProfile></MyProfile>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/updateProfile",
+        element: (
+          <PrivateRoute>
+            <UpdateProfile></UpdateProfile>
+          </PrivateRoute>
+        ),
       },
     ],
   },
