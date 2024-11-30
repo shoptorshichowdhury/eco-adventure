@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 import AdventureExperience from "../components/AdventureExperience/AdventureExperience";
+import AdventureDetails from "../pages/AdventureDetails";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const router = createBrowserRouter([
       },
       {
         path: "adventureDetails/:id",
-        element: <AdventureExperience></AdventureExperience>,
+        element: <AdventureDetails></AdventureDetails>,
+        loader: () => fetch("/adventure.json"),
       },
     ],
   },
