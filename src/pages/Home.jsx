@@ -1,7 +1,9 @@
+import Banner from "../components/Banner/Banner";
+
 const Home = () => {
   return (
     <div className="font-openSans">
-      <p>Home</p>
+      <Banner></Banner>
     </div>
   );
 };
