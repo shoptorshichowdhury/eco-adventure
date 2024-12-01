@@ -58,7 +58,7 @@ const Register = () => {
             navigate("/");
           })
           .catch((err) => {
-            console.log(err.code);
+            // console.log(err.code);
           });
       })
       .catch((err) => {

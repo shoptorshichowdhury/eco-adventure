@@ -30,7 +30,7 @@ const ResetPassword = () => {
         window.open("https://mail.google.com", "_blank");
       })
       .catch((error) => {
-        console.log(error.code);
+        // console.log(error.code);
       });
   };
 
