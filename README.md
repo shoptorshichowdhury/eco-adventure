@@ -1,3 +1,5 @@
+![App Screenshot](https://i.ibb.co.com/DsD0cmf/eco-adventure.png?w=800&h=400)
+
 # Web App: Eco Adventure 🌍
 
 ## Project Overview
