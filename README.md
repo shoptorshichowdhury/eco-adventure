@@ -54,6 +54,20 @@ Eco Adventure is a web application built to:
 
 ## How to run locally
 
+### ✅ Prerequisites
+
+Before running this project locally, ensure you have the following installed:
+
+- **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
+- **npm** (v6 or higher) - Comes with Node.js
+- **Git** (latest version recommended) - [Download here](https://git-scm.com/)
+
+### Verify Installation
+To check if you have the required tools installed, run these commands in your terminal:
+
+```bash
+node -v
+
 Clone the project
 
 ```bash
