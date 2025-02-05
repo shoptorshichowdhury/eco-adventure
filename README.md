@@ -1,4 +1,4 @@
-![App Screenshot](https://i.ibb.co.com/DsD0cmf/eco-adventure.png?w=800&h=400)
+![App Screenshot](https://i.ibb.co.com/DsD0cmf/eco-adventure.png?w=1000&h=400)
 
 # Web App: Eco Adventure 🌍
 
