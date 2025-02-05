@@ -1,6 +1,6 @@
 # Web App: Eco Adventure 🌍
 
-## Purpose
+## Project Overview
 
 Eco Adventure is a web application built to:
 
@@ -11,7 +11,17 @@ Eco Adventure is a web application built to:
 
 ## 🌐 Live URL
 
-[Eco Adventure Live URL](#) (https://eco-adventure-experience.netlify.app/)
+[Eco Adventure](https://eco-adventure-experience.netlify.app/)
+
+## 🚀 **Technologies Used**  
+
+| **Category** | **Technologies**                             |
+|--------------|-----------------------------------------------|
+| Frontend     | React, React Router, TailwindCSS, DaisyUI    |
+| Backend      | Firebase (Authentication & Database)         |
+| Utilities    | Swiper.js, AOS for animations                 |
+| Development  | Vite, ESLint, PostCSS                         |
+
 
 ## ✨ Key Features
 
@@ -21,8 +31,47 @@ Eco Adventure is a web application built to:
 - **Responsive Design:** Designed to deliver an optimized experience across mobile, tablet, and large-screen devices.
 - **Smooth Animations:** AOS (Animate on Scroll) enhances the user experience with visually appealing animations as users explore the platform.
 
+## 📦 **Dependencies**  
+```json
+{
+  "aos": "^2.3.4",
+  "firebase": "^11.0.2",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-icons": "^5.3.0",
+  "react-router-dom": "^7.0.1",
+  "swiper": "^11.1.15"
+}
+```
+
 ## 📦 NPM Packages
 
 - **React Icons**
 - **Swiper.js**
 - **AOS (Animate on Scroll)**
+
+## How to run locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
